@@ -3,7 +3,7 @@ class SongModel {
   final String artist;
   final String album;
   final String path;
-  final String duration;
+  final Duration duration;
   final String image;
 
   SongModel({
