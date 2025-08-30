@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mdia_player/core/utils/functions/request_permissions.dart';
 import 'package:mdia_player/core/utils/themes/themes.dart';
+import 'package:mdia_player/features/home_feature/presentation/views/home_view.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       darkTheme: Themes.darkThemeData,
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system,
-      home: const MyApp(),
+      home: const HomeView(),
     );
   }
 }
